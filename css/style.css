@@ -1,9 +1,48 @@
-.social-media{
-    background-color: blueviolet;
-    position: fixed; 
-    bottom: 0; 
-    right: 175px;
+.social-media li{
+    font-size: 50px;
+    float: left;
+    margin-left: 55px;
+    -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+
+}
+.social-media li:hover{
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.33);
+    -webkit-text-shadow: 0 2px 3px rgba(0, 0, 0, 0.33);
 }
 
+.fontawesome{
+    text-align: center;
+    font-size: 50px;
 
+}
+.squirrel-logo{
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    margin: 25px auto;
+    margin-top: 125px;
+    height: 275px;
+    width: 275px;
+    font-size: 175px;
+    background: -moz-linear-gradient(top, #c163ed 0%, #93f6f9 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #c163ed 0%,#93f6f9 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #c163ed 0%,#93f6f9 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
+}
+
+body{
+    background-color:whitesmoke;
+    font-family: Georgia;
+
+}
+.name-header{
+   text-align: center;
+}
+
+.cite{
+    text-align: right;
+}
