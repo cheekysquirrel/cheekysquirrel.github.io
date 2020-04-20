@@ -40,8 +40,19 @@ body{
 .fontawesome{
     text-align: center;
     font-size: 50px;
-
 }
+
+.fa-html5{
+    color: #ef6026;
+}
+.fa-swift{
+    color: #ed523f;
+}
+.fa-css3-alt{
+    color: #1b73ba;
+}
+
+
 .squirrel-logo{
     text-align: center;
    
