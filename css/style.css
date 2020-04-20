@@ -10,12 +10,20 @@ body{
 .cite{
     text-align: right;
 }
+
+.social-media{
+    text-align: center;
+}
+
+.social-media ul{
+    width: 70%;
+    margin: 0 auto;
+}
 /* social media icons horizontal and added hover transition */
 .social-media li{
     font-size: 50px;
-    float: left;
-    margin-left: 55px;
-    text-align: center;
+    display: inline-block;
+    margin: 0 15px;
     -webkit-transition: text-shadow 0.2s linear;
     -moz-transition: text-shadow 0.2s linear;
     -ms-transition: text-shadow 0.2s linear;
