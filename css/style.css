@@ -44,16 +44,26 @@ body{
 }
 .squirrel-logo{
     text-align: center;
-    border-radius: 15px;
+   
     color: white;
     margin: 25px auto;
-    margin-top: 125px;
-    height: 275px;
-    width: 275px;
-    font-size: 175px;
+
     background: -moz-linear-gradient(top, #c163ed 0%, #93f6f9 84%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #c163ed 0%,#93f6f9 84%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #c163ed 0%,#93f6f9 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 }
-
+.squirrel-logo.md{
+    border-radius: 15px;
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    font-size: 65px;
+}
+.squirrel-logo.lg{
+    border-radius: 15px;
+    margin-top: 125px;
+    height: 275px;
+    width: 275px;
+    font-size: 175px;
+}
